@@ -4,11 +4,11 @@
     --site-bg: url('images/blue036.jpg');
     --main-bg: url('images/blue128.jpg');
     --gradient-bg: linear-gradient(0deg, #0000 0%, #1c246288 33%, #18084388 90%);
-    --accent-color: violet;
+    --accent-color: slateblue;
     --link-color: mediumpurple;
     --bg-color: black;
-    --text-color: violet;
-    --text-color2: white;
+    --text-color: slateblue;
+    --text-color2: lightblue;
     --favorite-color: darkslateblue;
 }
 /* this theme mostly uses default css colors, but you can get hex codes from sites like this:
@@ -37,7 +37,7 @@ body {
     background-color: var(--bg-color);
     background-image: var(--site-bg);
 /* you can add a background-position if you don't want it to be top left! this one is set to not tile */
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
 /* i think having better line spacing helps text to be more readable, but you can remove it if you want */
 p {line-height: 1.5em;}
@@ -108,12 +108,12 @@ ul { list-style-type: "✦ "; }
 #avatar {
 /* image size is 160px so i made its container a little bigger to fit the borders */
     margin: 1em auto;
-    max-width: 164px;
-    max-height: 164px;
+    max-width: 300px;
+    max-height: 300px;
 }
 #avatar img {
     background: var(--bg-color);
-    max-width: 160px;
+    max-width: 298px;
     border: 1px solid var(--favorite-color);
     box-shadow: var(--accent-color) 0 0 4px;
 }
