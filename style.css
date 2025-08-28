@@ -37,7 +37,7 @@ body {
     background-color: var(--bg-color);
     background-image: var(--site-bg);
 /* you can add a background-position if you don't want it to be top left! this one is set to not tile */
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 /* i think having better line spacing helps text to be more readable, but you can remove it if you want */
 p {line-height: 1.5em;}
