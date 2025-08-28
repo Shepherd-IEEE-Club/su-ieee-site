@@ -4,7 +4,7 @@
     --site-bg: url('images/blue036.jpg');
     --main-bg: url('images/blue128.jpg');
     --gradient-bg: linear-gradient(0deg, #0000 0%, #1c246288 33%, #18084388 90%);
-    --accent-color: slateblue;
+    --accent-color: #8ef6e4;
     --link-color: slateblue;
     --bg-color: mediumpurple;
     --text-color: slateblue;
@@ -143,7 +143,7 @@ main {
     max-width: 800px;
     margin: auto;
     border: 1px solid darkslateblue;
-    color: var(--accent-color);
+    color: #8ef6e4;
     max-height: 600px;
     overflow:auto;
 }
