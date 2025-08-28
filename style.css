@@ -150,7 +150,6 @@ main {
 
 .prose {
 /* i couldn't put padding on main without it cutting off the background, so the padding is here... sorry if this extra class is a little inconvenient */
-    background: var(--gradient-bg);
     margin: 0;
     padding: 1em;
 }
