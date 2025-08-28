@@ -102,7 +102,7 @@ ul { list-style-type: "✦ "; }
 #sidebar {
     background-image: var(--main-bg);
     border: 1px solid var(--favorite-color);
-    min-width: 220px;
+    min-width: 300px;
 }
 
 #avatar {
