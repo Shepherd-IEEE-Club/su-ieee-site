@@ -2,9 +2,9 @@
    replace them with anything you want! */
 :root {
     --main-bg: url('images/blue128.jpg');
-    --bg-color: mediumpurple;
+    --bg-color: #5e227f;
     --text-color: #8ef6e4;
-    --favorite-color: darkslateblue;
+    --favorite-color: #edb1f1;
 }
 /* this theme mostly uses default css colors, but you can get hex codes from sites like this:
    https://palettes.shecodes.io/
@@ -14,7 +14,7 @@
 * {
     color: var(--text-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 2px 2px 5px var(--bg-color);
+    text-shadow: 5px 5px 6px var(--bg-color);
 /* custom scrollbars don't appear for all browsers, but i like setting them anyway */
     scrollbar-color: var(--favorite-color) var(--bg-color);
     scrollbar-width: thin;
