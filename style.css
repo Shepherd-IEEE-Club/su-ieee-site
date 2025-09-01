@@ -72,3 +72,8 @@ main {
         max-height: fit-content;
     }
 }
+
+.imgscroll {
+    /*scrolling image marquee*/
+    padding-top: 30px;
+}
