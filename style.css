@@ -17,7 +17,7 @@
     text-shadow: 5px 5px 6px var(--bg-color);
 /* custom scrollbars don't appear for all browsers, but i like setting them anyway */
     scrollbar-color: var(--favorite-color) var(--bg-color);
-    scrollbar-width: thin;
+    scrollbar-width: thick;
 }
 /* this is for when you select text on the page */
 ::selection {
@@ -58,8 +58,10 @@ ul { list-style-type: "✦ "; }
 main {
     max-width: 800px;
     margin: auto;
-    max-height: 600px;
+    max-height: 800px;
     overflow:auto;
+    border: 1px solid #231E45;
+    background-color: #372C78;
 }
 
 /* these are the mobile styles! */
