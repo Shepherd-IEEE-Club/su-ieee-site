@@ -66,7 +66,7 @@ main {
     background-color: rgba(94, 34, 127, 0.5);
 }
 
-page-footer {
+.page-footer {
     text-align: center;
     padding-top: 30px;
 }
@@ -230,7 +230,6 @@ page-footer {
   opacity: 0;
   z-index: 2;
   pointer-events: none;
-  animation: flicker 0.03s infinite;
 }
 .crt::before {
   content: " ";
