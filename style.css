@@ -63,7 +63,17 @@ main {
     border: 1px solid #8ef6e4;
     border-radius: 5px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(94, 34, 127, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.imgscroll {
+    /*scrolling image marquee*/
+    padding-top: 30px;
 }
 
 /* these are the mobile styles! */
@@ -77,7 +87,3 @@ main {
     }
 }
 
-.imgscroll {
-    /*scrolling image marquee*/
-    padding-top: 30px;
-}
