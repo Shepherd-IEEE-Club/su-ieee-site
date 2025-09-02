@@ -58,7 +58,7 @@ ul { list-style-type: "✦ "; }
 main {
     max-width: 800px;
     margin: auto;
-    max-height: 400px;
+    max-height: 300px;
     overflow:auto;
     border: 1px solid #8ef6e4;
     border-radius: 5px;
@@ -246,4 +246,22 @@ main {
 }
 .crt {
   animation: textShadow 1.6s infinite;
+}
+
+/*Signup form styling*/
+input[type=text], select, textarea {
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+}
+
+input[type=submit] {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    border-radius: 3px;
+    cursor: pointer;
 }
